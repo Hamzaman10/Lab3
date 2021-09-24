@@ -16,6 +16,9 @@ public class AddressBook
         buddy.remove(remove);
 
     }
+    private void sayHi(){
+        System.out.println("hello");
+    }
 
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613" );
